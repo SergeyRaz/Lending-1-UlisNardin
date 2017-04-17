@@ -22,7 +22,7 @@ h2 {
 
 p {
   font-size: 150%;
-  font-weight: 300;
+  /*font-weight: 300; */
 }
 
 .blue {
@@ -33,7 +33,30 @@ p {
   color: #D39400;
 }
 
-/*****header*****/
+.red {
+  color: #FD0000;
+}
+
+.green {
+  color: #25A034;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+}
+
+/**********************************************************************/
+/*******************************header*********************************/
+/**********************************************************************/
 .wrapper {
   border: 0px solid #c7c7c7;
   width: 100%;
@@ -44,7 +67,7 @@ p {
 .container {
   height: 100%;
   position: relative;
-  border: 0px solid #c7c7c7;
+  border: 0px solid #c6c6c6;
 }
 
 .header_list {
@@ -79,50 +102,34 @@ p {
 
 .h_list_item {
   font-size: 150%;
-  color: #000;
+  /*color: #000; */
 }
 
-/*****slide***** */
-/*.slide
-    width: 350px;
-    height: 550px;
-    border: 1px solid green; */
-/*.slide_bar
-    width: 350px;
-    height: 500px;
-    border: 1px solid green;
-    overflow: hidden; */
-/*.but
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border: 1px solid green; */
-/*.black-but
-    background: #000; */
-/*.gold-but
-    background: gold; */
-/*.gold-but:active .slide_bar
-    background-position: -350px; */
-/*****block-2*****/
+/**********************************************************************/
+/******************************block-2*********************************/
+/**********************************************************************/
 .brand {
   display: block;
   margin: 25px auto;
   width: 100%;
   height: 132px;
-  background: url("../img/breguet.png") no-repeat center;
+  /*background: url("../img/breguet.png") no-repeat center; */
+}
+
+.logo {
+  width: 50%;
 }
 
 .brequet_colomn {
   width: 50%;
   min-width: 340px;
   min-height: 100px;
-  /*background: #c7c7c7;*/
   border: 0px solid #fff;
   margin: auto;
   padding: 10px;
 }
 
-.brequet_colomn img {
+img {
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -133,20 +140,138 @@ p {
   width: 80%;
 }
 
-.brequet_colomn-2 {
-  /*background: url("../img/block_2_wotch-1.png"); */
-  /*background-size: cover; */
+/**********************************************************************/
+/******************************block-3*********************************/
+/**********************************************************************/
+video {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-align-content: flex-start;
-      -ms-flex-line-pack: start;
-          align-content: flex-start;
+.block_3_col_2 {
+  text-align: center;
+  padding-top: 150px;
+  width: 100%;
+  height: 500px;
+  background: url("../img/auto-1.png") no-repeat center;
+  background-size: contain;
+}
+
+/**********************************************************************/
+/******************************block-4*********************************/
+/**********************************************************************/
+.block_4_col {
+  border: 0px solid #c7c7c7;
+  width: 50%;
+  min-width: 340px;
+  min-height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+/**********************************************************************/
+/******************************block-5*********************************/
+/**********************************************************************/
+.block_5 {
+  background: url("../img/hand_wotch.png");
+  padding: 20px 10px;
+  height: 500px;
+}
+
+.features_list {
+  list-style: none;
+  text-align: right;
+}
+
+.features_list li {
+  font-size: 20px;
+}
+
+.features_list li span {
+  font-weight: bold;
+}
+
+/**********************************************************************/
+/******************************block-6*********************************/
+/**********************************************************************/
+.block_6 {
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block_6_col {
+  width: 50%;
+  min-width: 340px;
+  min-height: 100px;
+  border: 0px solid #c7c7c7;
+  margin: auto;
+}
+
+.action {
+  width: 100%;
+  height: 500px;
+  background: url("../img/auto-2.png") center no-repeat;
+  background-size: contain;
+  padding-top: 150px;
+}
+
+/**********************************************************************/
+/******************************block-7*********************************/
+/**********************************************************************/
+.opinion_1 {
+  margin: 50px 0;
+}
+
+.opinion_1 img {
+  width: 140px;
+  height: 140px;
+  border: 0px solid #c7c7c7;
+  margin: auto;
+}
+
+.opinion_1_group {
+  padding: 5px;
+  border: 0px solid #c7c7c7;
+  max-width: 85%;
+}
+
+/**********************************************************************/
+/******************************block-7*********************************/
+/**********************************************************************/
+.block_8 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block_8 h5 {
+  border-bottom: 1px solid #136F8E;
+  margin: 0;
+  padding: 10px;
+  font-size: 130%;
+}
+
+.block_8 ul {
+  margin: 50px 10px;
+}
+
+.advantage {
+  margin-left: 5px;
+  width: 49%;
+  min-height: 100px;
+  border: 1px solid #136F8E;
+  font-size: 160%;
+}
+
+.disadvantage {
+  margin-right: 5px;
+  width: 49%;
+  min-height: 100px;
+  border: 1px solid #136F8E;
+  font-size: 160%;
 }

@@ -34,11 +34,19 @@ p {
 }
 
 .red {
-  color: #FD0000;
+  color: #A30000;
 }
 
 .green {
-  color: #25A034;
+  color: #006B0C;
+}
+
+.bgred {
+  background-color: #A30000;
+}
+
+.bggreen {
+  background-color: #006B0C;
 }
 
 .flex {
@@ -57,7 +65,7 @@ p {
 /**********************************************************************/
 /*******************************header*********************************/
 /**********************************************************************/
-.wrapper {
+.wrapper_block_1 {
   border: 0px solid #c7c7c7;
   width: 100%;
   height: 100vh;
@@ -197,10 +205,7 @@ video {
 /**********************************************************************/
 .block_6 {
   text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /*justify-content: center; */
 }
 
 .block_6_col {
@@ -240,7 +245,7 @@ video {
 }
 
 /**********************************************************************/
-/******************************block-7*********************************/
+/******************************block-8*********************************/
 /**********************************************************************/
 .block_8 {
   -webkit-box-pack: center;
@@ -250,10 +255,10 @@ video {
 }
 
 .block_8 h5 {
-  border-bottom: 1px solid #136F8E;
+  border-bottom: 0px solid #136F8E;
   margin: 0;
-  padding: 10px;
-  font-size: 130%;
+  padding: 15px;
+  font-size: 120%;
 }
 
 .block_8 ul {
@@ -264,14 +269,43 @@ video {
   margin-left: 5px;
   width: 49%;
   min-height: 100px;
-  border: 1px solid #136F8E;
+  border: 0px solid #136F8E;
   font-size: 160%;
+  background-color: #333437;
+}
+
+.advantage ul {
+  list-style-image: url("../img/tick.png");
 }
 
 .disadvantage {
   margin-right: 5px;
   width: 49%;
   min-height: 100px;
-  border: 1px solid #136F8E;
+  border: 0px solid #136F8E;
   font-size: 160%;
+  background-color: #333437;
+}
+
+.disadvantage ul {
+  list-style-image: url("../img/cross.png");
+}
+
+/**********************************************************************/
+/******************************block-9*********************************/
+/**********************************************************************/
+.form {
+  color: #000;
+  font-weight: bold;
+}
+
+/**********************************************************************/
+/******************************footer**********************************/
+/**********************************************************************/
+.wrapper_footer {
+  margin-top: 80px;
+  padding-top: 50px;
+  font-size: 60%;
+  height: 190px;
+  background: url("../img/foot.png");
 }

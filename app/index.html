@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Breguet Tradition Chronographe Independant</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
 <!----------------------------------------------------------------------------->
-<!-----------------------------------header------------------------------------>
+<!--------------------------------ШАПКА САЙТА---------------------------------->
 <!----------------------------------------------------------------------------->
    
 <div class="wrapper_block_1">
@@ -22,52 +22,52 @@
         <h1 class="header_title header_title-2">Breguet Tradition Chronograph<br>titanium balance</h1>
         <h1 class="header_title header_title-3">ОЛИЦЕТВОРЕНИЕ СТАТУСА И УСПЕХА</h1>
         <ul class="header_list">
-            <li class="h_list_item">СТИЛЬНЫЙ МУЖСКОЙ ДИЗАЙН</li>
-            <li class="h_list_item">НАДЕЖНЫЙ МЕХАНИЗМ</li>
-            <li class="h_list_item">ГАРАНТИЯ 12 МЕСЯЦЕВ</li>
-            <li class="h_list_item">ГАРАНТИРОВАННЫЙ ПОДАРОК</li>
-            <li class="h_list_item">АКЦИЯ! СКИДКА 49%</li>
-            <li class="h_list_item">ОПЛАТА ПРИ ПОЛУЧЕНИИ ЛИЧНО В РУКИ!</li>
+            <li>СТИЛЬНЫЙ МУЖСКОЙ ДИЗАЙН</li>
+            <li>НАДЕЖНЫЙ МЕХАНИЗМ</li>
+            <li>ГАРАНТИЯ 12 МЕСЯЦЕВ</li>
+            <li>ГАРАНТИРОВАННЫЙ ПОДАРОК</li>
+            <li>АКЦИЯ! СКИДКА 49%</li>
+            <li>ОПЛАТА ПРИ ПОЛУЧЕНИИ ЛИЧНО В РУКИ</li>
         </ul>                           
     </div>
 </div>
    
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-2------------------------------------>
+<!----------------------------------БРЭНД-------------------------------------->
 <!----------------------------------------------------------------------------->           
 
-<div class="container flex">
-    <div class="brand">
+<div class="container block_brand">
+    <div class="img_brand">
         <img class="logo" src="img/breguet.png" alt="logo">
     </div>
-    <div class="brequet_colomn brequet_colomn-2">
+    <div class="brequet_colomn">
         <img id="block_2_wotch-1" src="img/block_2_wotch-1.png" alt="">
     </div>
-    <div class="brequet_colomn brequet_colomn-3">
+    <div class="brequet_colomn">
         <h3><span class="blue">СОВЕРШЕНСТВО,</span> <span class="gold">НА КОТОРОЕ РАВНЯЮТСЯ</span></h3>
         <p>Создание циферблата - это целое искусство, в котором не обойтись без художественного мастерства и самых новых технологий.</p>
         <p>Ulysse Nardin создал дизайн - подобие совершенства, на которое уже многие годы равняются все остальные часовые компании.</p>
     </div>
-    <div class="brequet_colomn brequet_colomn-4">
+    <div class="brequet_colomn">
         <h3><span class="blue">ОЛИЦЕТВОРЕНИЕ</span> <span class="gold">СТАТУСА И УСПЕХА</span></h3>
         <p>чувства стиля и вкуса, оригинальности и самодостаточности. Возьмите с собой часы Ulysse Nardin на деловую встречу, занятия спортом, на отдых или просто носите их в повседневной жизни и они будут дарить Вам только приятные эмоции, восхищения со стороны женщин и уважение мужчин!</p>
         <p>Каждый уважающий себя мужчина должен носить эти часы!</p>
         <p>Часы Ulysse Nardin на сегодняшний день являются показателем успеха современного мужчины. Звёзды Голливуда, шоу-бизнеса, политики и спортсмены не могут ошибаться</p>
     </div>
-    <div class="brequet_colomn brequet_colomn-5">
+    <div class="brequet_colomn">
         <img src="img/block_2_man.jpg" alt="">
     </div>
-    <div class="brequet_colomn brequet_colomn-6">
+    <div class="brequet_colomn">
         <img src="img/block_2_wotch-2.png" alt="">
     </div>
-    <div class="brequet_colomn brequet_colomn-7">
+    <div class="brequet_colomn">
         <h3><span class="blue">В ЛУЧШИХ</span> <span class="gold">ЩВЕЙЦАРСКИХ ТРАДИЦИЯХ</span></h3>
         <p>Корпус часов обладает повышенной устойчивостью к коррозии и сохраняет стойкость цвета в течение многих десятков лет. Их поверхность не восприимчива к царапинам, ударам и не чувствительна к воздействию света и морской воды.</p>
     </div>
 </div>
    
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-3------------------------------------>
+<!----------------------------ПОСМОТРИТЕ ВИДЕООБЗОР---------------------------->
 <!----------------------------------------------------------------------------->
 
 <h2>ПОСМОТРИТЕ ВИДЕООБЗОР</h2>
@@ -79,15 +79,42 @@
         <h3 class="blue">НОВАЯ ЦЕНА: 2990 р.</h3>
         <h4>+ПОДАРОК!</h4>
         <p>на данный момент у нас осталось всего 11 из 250 комплектов Успейте забронировать цену со скидкой!</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Заказать</button>
+        <!-- Modal -->
+        <div class="modal fade form" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Оформить заявку</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">Имя</label>
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите имя">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введите Email">
+                            </div>
+                            <button type="submit" class="btn btn-default">Отпавить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
    
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-4------------------------------------>
+<!----------------------------МИРОВОЕ ПРИЗНАНИЕ-------------------------------->
 <!----------------------------------------------------------------------------->   
    
 <h2>МИРОВОЕ ПРИЗНАНИЕ</h2>
-<div class="container block_4 flex">
+<div class="container block_4">
     <div class="block_4_col">
         <img src="img/wotch-2.png" alt="">    
     </div>
@@ -112,11 +139,11 @@
 </div>
     
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-5------------------------------------>
+<!-------------------------------ХАРАКТЕРИСТИКИ-------------------------------->
 <!----------------------------------------------------------------------------->
 
 <h2>ХАРАКТЕРИСТИКИ</h2>
-<div class="container features">
+<div class="container">
     <div class="block_5">
     <ul class="features_list">
         <li><span class="blue">БРЕНД:</span> "Ulysse Nardin"</li>
@@ -139,10 +166,10 @@
 </div>
     
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-6------------------------------------>
+<!-----------------------------НОВОСТИ УЧЕНЫХ---------------------------------->
 <!----------------------------------------------------------------------------->
 
-<div class="container block_6 flex">
+<div class="container block_6">
     <h3 class="blue">НОВОСТИ УЧЕНЫХ ПРО ВЛИЯНИЕ ДОРОГИХ АКСЕССУАРОВ НА НАШУ ПОВСЕДНЕВНУЮ ЖИЗНЬ</h3>
     <div class="block_6_col">
         <img src="img/woman.png" alt="">
@@ -158,16 +185,43 @@
             <h3 class="blue">НОВАЯ ЦЕНА: 2990 р.</h3>
             <h4>+ПОДАРОК!</h4>
             <p>на данный момент у нас осталось всего 11 из 250 комплектов Успейте забронировать цену со скидкой!</p>
+            <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Заказать</button>
+        <!-- Modal -->
+        <div class="modal fade form" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Оформить заявку</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">Имя</label>
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите имя">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введите Email">
+                            </div>
+                            <button type="submit" class="btn btn-default">Отпавить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
     </div>    
 </div>
 
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-7------------------------------------>
+<!----------------------------ОТЗЫВЫ ПОКУПАТЕЛЕЙ------------------------------->
 <!----------------------------------------------------------------------------->
    
 <h2>ОТЗЫВЫ ПОКУПАТЕЛЕЙ</h2>
 <div class="container">
-    <div class="opinion_1 flex">
+    <div class="opinion_1">
         <img src="img/opinion.png" alt="opinion_1">
         <div class="opinion_1_group">
             <h4>Мансур Вафин, г.ЧЕЛЯБИНСК</h4>
@@ -177,11 +231,11 @@
 </div>
 
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-8------------------------------------>
+<!----------------------------НАШИ ПРЕИМУЩЕСТВА-------------------------------->
 <!----------------------------------------------------------------------------->
 
 <h2>НАШИ ПРЕИМУЩЕСТВА</h2>
-<div class="container flex block_8">
+<div class="container block_8">
     <div class="disadvantage">
         <h5 class="bgred">ДРУГИЕ ПРОДАВЦЫ</h5>
         <ul class="disadvantage_list">
@@ -213,62 +267,59 @@
 </div>
 
 <!----------------------------------------------------------------------------->
-<!----------------------------------block-9------------------------------------>
+<!----------------------------------ДОСТАВКА----------------------------------->
 <!----------------------------------------------------------------------------->   
 
 <h2>ДОСТАВКА</h2>
 <div class="container block_9">
-    <div class="block_9_col">
+    <div class="block_9_col block_9_col_1">
         <img src="img/map.jpg" alt="">
     </div>
-    <div class="block_9_col">
-        <h3>ГАРАНТИИ</h3>
-        <p>Мы заботимся о своей репутации, довольные клиенты для нас - на первом месте!
-        Мы соблюдаем закон "О защите прав потребителя" Если в течение 14 дней после получения покупки, вы по какой-то причиние решили вернуть деньги.</p> 
-        <p>Вам достаточно свазаться с нашими менеджерами. Мы без лишних вопросов примем ваш возврат!</p>
-        <h3>ЗАКАЗАТЬ ЧАСЫ ВАШЕЙ МЕЧТЫ В 1 КЛИК!</h3>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Заказать
-</button>
-
-<!-- Modal -->
-<div class="modal fade form" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Оформить заявку</h4>
-      </div>
-      <div class="modal-body">
-        <form class="form-inline">
-  <div class="form-group">
-    <label for="exampleInputName2">Имя</label>
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите имя">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputEmail2">Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введите Email">
-  </div>
-  <button type="submit" class="btn btn-default">Отпавить</button>
-</form>
-      </div>
-      <div class="modal-footer">
-<!--
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
--->
-      </div>
+    <div class="block_9_col block_9_col_2">
+        <img src="img/garant.png" alt="">                                                       
     </div>
-  </div>
-</div>        
-                                
+    <div class="block_9_col block_9_col_3">
+        <h3>ГАРАНТИИ</h3>
+            <p>Мы заботимся о своей репутации, довольные клиенты для нас - на первом месте!
+            Мы соблюдаем закон "О защите прав потребителя" Если в течение 14 дней после получения покупки, вы по какой-то причиние решили вернуть деньги.</p> 
+            <p>Вам достаточно свазаться с нашими менеджерами. Мы без лишних вопросов примем ваш возврат!</p>    
+    </div>
+    <div class="block_9_col block_9_col_4">
+        <h3>ЗАКАЗАТЬ ЧАСЫ ВАШЕЙ МЕЧТЫ В 1 КЛИК</h3>    
+    </div>
+    <div class="block_9_col block_9_col_5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Заказать</button>
+        <!-- Modal -->
+        <div class="modal fade form" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Оформить заявку</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="exampleInputName2">Имя</label>
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Введите имя">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail2">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Введите Email">
+                            </div>
+                            <button type="submit" class="btn btn-default">Отпавить</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>    
     </div>
 </div>
 
 <!----------------------------------------------------------------------------->
-<!----------------------------------footer------------------------------------->
+<!----------------------------------ФУТЕР-------------------------------------->
 <!----------------------------------------------------------------------------->
 
 <div class="wrapper_footer">
@@ -279,9 +330,7 @@
 </div>
 
 
-
-    
-    
+   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/libs.min.js"></script>

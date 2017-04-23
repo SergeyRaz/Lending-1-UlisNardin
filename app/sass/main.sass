@@ -1,152 +1,126 @@
-$red: #A30000;
-$green: #006B0C;
+$red: #EE4848;
+$green: #00B168;
 $grey: #747280;
 $blue: #136F8E;
 $gold: #D39400;
 
 body
-    /*height: 5150px;
     background: black;
     box-sizing: border-box;
     color: #fff;
     font-family: 'Poiret One', cursive;
-    
 h1, h2, h3, h4, h5, h6
     text-transform: uppercase;
     font-weight: bold;
-    
 h2  
     height: 100px;
     background: url("../img/yellow_wide3.png") no-repeat center;
     text-align: center;
     line-height: 80px;
     font-size: 150%;
-    
 p
     font-size: 150%;
-    /*font-weight: 300;
-    
 .blue
     color: $blue;
-    
 .gold
     color: $gold;
-    
 .red
     color: $red;
-    
 .green
     color: $green;
-
 .bgred
     background-color: $red;
-    
 .bggreen
     background-color: $green;
-
-.flex
+/*.flex
     display: flex;    
     flex-wrap: wrap;
-    align-content: flex-start;
+.in
+    display: inline-block;
     
 /**********************************************************************/
-/*******************************header*********************************/
+/******************************ШАПКА САЙТА*****************************/
 /**********************************************************************/
 
 .wrapper_block_1
-    border: 0px solid #c7c7c7;
     width: 100%;
     height: 100vh;
     background: url('../img/headerWotch.jpg') no-repeat center;
-    
+    color: #000;
 .container
     height: 100%;
     position: relative;
-    border: 0px solid #c6c6c6;
-    
+.header_title-1
+    font-size: 170%;
+.header_title-2
+    font-size: 300%;
+    color: #136F8E;
+.header_title-3
+    font-size: 150%;   
 .header_list
     position: absolute;
     bottom: 0px;
     left: 0px;
     font-weight: bold;
-
 .header_title
     margin-top: 10px;
-    
-.header_title-1
-    font-size: 170%;
-    color: #4A3500;
-    
-.header_title-2
-    font-size: 300%;
-    color: #136F8E;
-
-.header_title-3
-    font-size: 150%;
-    color: #000;
-
 .header_list
-    display: block; 
+    display: block;
+    font-size: 150%;   
     
-.h_list_item
-    font-size: 150%;
-    /*color: #000;
-
 /**********************************************************************/
-/******************************block-2*********************************/
+/********************************БРЭНД*********************************/
 /**********************************************************************/
 
-.brand
+.block_brand
+    display: flex;    
+    flex-wrap: wrap;
+.img_brand
     display: block;
     margin: 25px auto;
     width: 100%;
     height: 132px;
-    /*background: url("../img/breguet.png") no-repeat center;
-    
 .logo
     width: 50%;
-
 .brequet_colomn
     width: 50%;
     min-width: 340px;
     min-height: 100px;
-    border: 0px solid #fff;
     margin: auto;
     padding: 10px;
-    
 img
     display: block;
     width: 100%;
     margin: 0 auto;
-    border: 0px solid #c7c7c7;
-
 #block_2_wotch-1
     width: 80%;  
     
 /**********************************************************************/
-/******************************block-3*********************************/
+/************************ПОСМОТРИТЕ ВИДЕООБЗОР*************************/
 /**********************************************************************/
 
 video
     display: block;
     width: 100%;
     margin: 0 auto;
-
-
 .block_3_col_2
+    margin-top: 50px;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 80px;
     width: 100%;
     height: 500px;
     background: url("../img/auto-1.png") no-repeat center;
     background-size: contain;
+    p
+        margin-bottom: 50px;
 
 /**********************************************************************/
-/******************************block-4*********************************/
+/************************МИРОВОЕ ПРИЗНАНИЕ*****************************/
 /**********************************************************************/
-
+.block_4
+    display: flex;    
+    flex-wrap: wrap;
 .block_4_col
-    border: 0px solid #c7c7c7;
     width: 50%;
     min-width: 340px;
     min-height: 100px;
@@ -154,112 +128,117 @@ video
     text-align: center;
 
 /**********************************************************************/
-/******************************block-5*********************************/
+/***************************ХАРАКТЕРИСТИКИ*****************************/
 /**********************************************************************/    
-
-.features
-    
 .block_5
     background: url("../img/hand_wotch.png");
     padding: 20px 10px;
     height: 500px;
-    
 .features_list
     list-style: none;
     text-align: right;
-    
     li
         font-size: 20px;
-        
         span
             font-weight: bold;
             
 /**********************************************************************/
-/******************************block-6*********************************/
+/**************************НОВОСТИ УЧЕНЫХ******************************/
 /**********************************************************************/
 
 .block_6
     text-align: center;
-    /*justify-content: center;
-    
+    display: flex;    
+    flex-wrap: wrap;
 .block_6_col
     width: 50%;
     min-width: 340px;
     min-height: 100px;
-    border: 0px solid #c7c7c7;
     margin: auto;
-    
 .action
     width: 100%;
     height: 500px;
     background: url("../img/auto-2.png") center no-repeat;
     background-size: contain;
-    padding-top: 150px;
+    padding-top: 100px;
+    p
+        margin-bottom: 50px;
 
 /**********************************************************************/
-/******************************block-7*********************************/
+/***************************ОТЗЫВЫ ПОКУПАТЕЛЕЙ*************************/
 /**********************************************************************/
 
 .opinion_1
     margin: 50px 0;
-    
+    display: flex;    
+    flex-wrap: wrap;
     img
         width: 140px;
         height: 140px;
-        border: 0px solid #c7c7c7;
         margin: auto;
-        
 .opinion_1_group
     padding: 5px;
-    border: 0px solid #c7c7c7;
     max-width: 85%;
 
 /**********************************************************************/
-/******************************block-8*********************************/
+/****************************НАШИ ПРЕИМУЩЕСТВА*************************/
 /**********************************************************************/
 .block_8
     justify-content: center;
-    
+    display: flex;    
+    flex-wrap: wrap;
     h5
-        border-bottom: 0px solid $blue;
         margin: 0;
         padding: 15px;
         font-size: 120%;
-               
+        border-radius: 10px;
     ul
         margin: 50px 10px;
-        
 .advantage
     margin-left: 5px;
     width: 49%;
     min-height: 100px;
-    border: 0px solid $blue;
     font-size: 160%;
     background-color: #333437;
-    
+    border-radius: 10px;
     ul
         list-style-image: url("../img/tick.png");
-    
 .disadvantage
     margin-right: 5px;
     width: 49%;
     min-height: 100px;
-    border: 0px solid $blue;
     font-size: 160%;
     background-color: #333437;
-    
+    border-radius: 10px;
     ul
         list-style-image: url("../img/cross.png");
 
 /**********************************************************************/
-/******************************block-9*********************************/
-/**********************************************************************/    
-
+/******************************ДОСТАВКА********************************/
+/**********************************************************************/
+.block_9
+    justify-content: space-around;
+    display: flex;    
+    flex-wrap: wrap;
+.block_9_col
+    border: 0px solid #c7c7c7;
+    padding: 10px;
+.block_9_col_1
+    flex-basis: 100%;
+.block_9_col_2
+    margin: auto;
+.block_9_col_3
+    flex-basis: 50%;
+    flex-grow: 1;
+.block_9_col_4
+    flex-basis:
 .form
     color: #000;
     font-weight: bold;
+.btnlg
+    border: none;
 /**********************************************************************/
-/******************************footer**********************************/
+/*******************************ФУТЕР**********************************/
 /**********************************************************************/
 
 .wrapper_footer
